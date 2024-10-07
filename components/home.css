@@ -1,0 +1,70 @@
+*{
+    /* background-color: aqua; */
+}
+.header{
+    /* background-color: black; */
+    /* border: solid black 10px; */
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: larger;
+}
+ul{
+    display: flex;
+    /* margin: 50px; */
+}
+li{
+    margin-left: 60px;
+}
+.todo{
+    display: flex;
+    justify-content:baseline;
+    flex-direction: column;
+    /* border: 10px solid black; */
+    /* width: 1000px; */
+    height: 1000px;
+    align-items: center;
+    margin: 10px;
+}
+.input_1{
+    /* display: flex; */
+    width: 500px;
+    height: 50px;
+    /* flex-direction: column; */
+}
+/* button{ */
+    /* width: 200px; */
+    /* font-size: larger; */
+    /* margin: 10px; */
+    /* border: 10px solid black; */
+/* } */
+button:hover{
+/* box-shadow: inset; */
+background-color: black;
+/* box */
+}
+.section_1{
+    /* background-color: pink; */
+    display: flex;
+    /* margin: 50px; */
+    /* padding: 30px; */
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.todo_ul{
+    /* background-color: black; */
+    justify-content: center;
+    align-items: center;
+    border: solid black 10px;
+    flex-direction: column;
+}
+.edit_inp{
+    width: 500px;
+    height: 400px;
+}
+.edit_but{
+    height: 50px;
+    width: 300px;
+}
+
